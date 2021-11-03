@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portafolio Andrés</title>
+     <link rel="stylesheet" href="css/all.css">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/Estilos.css">
+    </head>
+    <body>
+
+        <!--Contenedor-->
+        <div class="contenedor" id="contenedor">
+            <section class="tarjeta">
+
+                <!--Slider banner-->
+
+                <section class="slider_banner">
+                    <div class="banner" id="banner">
+                        <img class="slide active" src="img/banner1.jpg" alt="">
+                        <img class="slide" src="img/banner2.jpg" alt="">
+                        <img class="slide" src="img/banner3.jpg" alt="">
+                        <img class="slide" src="img/banner4.jpg" alt="">
+                    </div>
+
+                    <a href="#" id="banner-prev" class="flecha-banner anterior"><span class="fa fa-chevron-left"></span></a>
+                    <a href="#" id="banner-next" class="flecha-banner siguiente"><span class="fa fa-chevron-right"></span></a>
+                </section>
+
+                <!--Slider info-->
+                <section class="slider_info">
+                    <a href="#" id="info-prev" class="flecha-info anterior"><span class="fa fa-chevron-left"></span></a>
+                    <a href="#" id="info-next" class="flecha-info siguiente"><span class="fa fa-chevron-right"></span></a>
+
+                    <section id="informacion" class="informacion">
+                        <article id="info">
+                            <div class="slide active">
+                                <h1 class="nombre">Andrés Ramírez</h1>
+                                <p class="trabajo">Estudiante de Ingenieria Informática</p>
+                                <p class="pais"><img src="img/Vnzl.png" alt="Venezuela" title="Venezuela"></p>
+                            </div>
+
+                            <div class="slide">
+                                <h2 class="subtitulo">Sobre mi</h2>
+                                <p class="texto">Nací el 17 de Marzo de 2003. Soy De Venezuela Estado Delta Amacuro. Actualmente estudio PNF Informática en la Universidad Francisco Tamayo</p>
+                            </div>
+
+                            <div class="slide">
+                                <h2 class="subtitulo">Conocimientos</h2>
+                                <p class="texto">Breve conocimiento de:</p>
+                                <div class="conocimientos">
+                                    <i class="fa-brands fa-python" title="Python"></i>
+                                    <i class="fa-brands fa-html5" title="HTML"></i>
+                                    <i class="fa-brands fa-css3" title="CSS"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                        <div class="botones" id="botones"></div>
+                    </section>
+                </section>
+
+                <!--redes sociales-->
+                <section class="redes_sociales"></section>
+                <a href="https://www.facebook.com/pudiota" class="facebook"><span class="fa-brands fa-facebook" title="facebook"></span></a>
+                <a href="https://www.instagram.com/ramirez_andres2020/" class="instagram"><span class="fa-brands fa-instagram" title="instagram"></span></a>
+                <a href="" class="twitter"><span class="fa-brands fa-twitter" title="twitter"></span></a>
+            </section>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
